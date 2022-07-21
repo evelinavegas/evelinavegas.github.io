@@ -24,16 +24,19 @@
     background-position: center
 }
 
-.item-text-block[data-v-f18b2018] {
-    display: none
-}
-
-.item:hover>.item-text-block[data-v-f18b2018] {
-    display: block;
-    text-align: center;
-    padding: 0 2px;
-    background-color: #1a1a1a;
-    color: #fff
+@media (min-width: 760px) {
+    .item-text-block[data-v-f18b2018] {
+        display: none
+    }
+    
+    .item:hover>.item-text-block[data-v-f18b2018] {
+        display: block;
+        text-align: center;
+        padding: 0 2px;
+        background-color: #1a1a1a;
+        color: #fff
+    }
+    
 }
 
 .item[data-v-f18b2018]:hover {
