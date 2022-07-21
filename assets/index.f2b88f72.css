@@ -1,4 +1,4 @@
-.item-wrap[data-v-f18b2018] {
+.item-wrap[data-v-17fbc526] {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,13 +6,13 @@
     opacity: 0
 }
 
-._active[data-v-f18b2018] {
+._active[data-v-17fbc526] {
     transform: translate(0);
     opacity: 1;
     transition: 1s
 }
 
-.item[data-v-f18b2018] {
+.item[data-v-17fbc526] {
     width: 50%;
     width: 200px;
     height: 200px;
@@ -24,22 +24,19 @@
     background-position: center
 }
 
-@media (min-width: 760px) {
-    .item-text-block[data-v-f18b2018] {
-        display: none
-    }
-    
-    .item:hover>.item-text-block[data-v-f18b2018] {
-        display: block;
-        text-align: center;
-        padding: 0 2px;
-        background-color: #1a1a1a;
-        color: #fff
-    }
-    
+.item-text-block[data-v-17fbc526] {
+    display: none
 }
 
-.item[data-v-f18b2018]:hover {
+.item:hover>.item-text-block[data-v-17fbc526] {
+    display: block;
+    text-align: center;
+    padding: 0 2px;
+    background-color: #1a1a1a;
+    color: #fff
+}
+
+.item[data-v-17fbc526]:hover {
     box-shadow: 0 0 41px 6px red;
     transition: .4s
 }
@@ -89,9 +86,6 @@
 .menu-o-nav>li {
     list-style: none;
     padding: 5px 0
-}
-.menu-o-nav>li:hover{
-  text-decoration: underline;
 }
 
 a {
@@ -198,24 +192,6 @@ h1 {
 }
 
 @keyframes h1 {
-    0% {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1
-    }
-}
-
-.hd-item p {
-    color: #fff;
-    text-align: center;
-    font-size: 1.1em;
-    animation-duration: 4s;
-    animation-name: hd-item-p
-}
-
-@keyframes hd-item-p {
     0% {
         opacity: 0
     }
