@@ -420,6 +420,9 @@ input, textarea{
 
 /* CONTACT */
 
+.footer-nav .section{
+	display: none;
+}
 .footer-cont-form{
 	padding: 4vh 2vh;
 }
@@ -462,18 +465,7 @@ input, textarea{
 
 /* FOOTER NAV */
 
-.footer-nav{
-	flex-direction: column;
-	align-items: center;
-	padding: 8vh 2vh;
-	background: #aeaeae;
-}
-.footer-nav .section{
-	display: none;
-}
-.footer-nav>span{
-	font-size: 13px;
-}
+
 
 
 /* TO TOP */
@@ -596,6 +588,15 @@ input, textarea{
 	}
 	.team-form form *{
 		width: 100%;
+	}
+	.footer-nav{
+		flex-direction: column;
+		align-items: center;
+		padding: 8vh 2vh;
+		background: #aeaeae;
+	}
+	.footer-nav>span{
+		font-size: 13px;
 	}
 	.footer-nav .section{
 		display: flex;
