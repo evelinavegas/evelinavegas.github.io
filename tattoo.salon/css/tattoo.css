@@ -172,7 +172,6 @@ header{
 	background-image: url(../img/header.png); 
 	padding-bottom: 30%;
 	background-position: 44% 2%;
-	height: 100vh;
 }
 .bg{
 	background-repeat: no-repeat;
@@ -551,8 +550,9 @@ input, textarea{
 	
 }
 @media screen and (min-width: 762px){
-    header{ 
-		padding-top: 3vh;
+	header{ 
+		padding-top: 3vh;   
+		height: 100vh;
 	}
 	.head-logo-img{
 		top: 2vh;
@@ -560,11 +560,11 @@ input, textarea{
 	.logo-img{
 		left: 43%;
 	}
-    .nav-ul{
+	.nav-ul{
 		width: 100%;
 		justify-content: space-around;
 	}
-    .nav-li-size{
+	.nav-li-size{
 		width: 100%;
 		flex-direction: row;
 	}
@@ -579,9 +579,9 @@ input, textarea{
 	}
 	.menu-btn{
 		display: none;
-    }
-    .nav-ul-li:hover{
-        background: rgba(255,255,255, 0);
+	}
+	.nav-ul-li:hover{
+		background: rgba(255,255,255, 0);
 	}
 	.footer-col1-2{
 		width: 50%;
@@ -589,8 +589,8 @@ input, textarea{
 	.col1-3{
 		width: calc(100% / 3);
 	}
-    .col1-6{
-        width: calc(100% / 6);
+	.col1-6{
+        	width: calc(100% / 6);
 	}
 	.team-b1{
 		display: flex;
