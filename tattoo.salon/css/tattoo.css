@@ -172,6 +172,7 @@ header{
 	background-image: url(../img/header.png); 
 	padding-bottom: 30%;
 	background-position: 44% 2%;
+	height: 100vh;
 }
 .bg{
 	background-repeat: no-repeat;
