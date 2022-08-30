@@ -38,11 +38,12 @@
     .item:hover>.item-text-block[data-v-17fbc526] {
         display: block;
     }
+    .item[data-v-17fbc526]:hover {
+        box-shadow: 0 0 41px 6px red;
+        transition: .4s
+    }
 }
-.item[data-v-17fbc526]:hover {
-    box-shadow: 0 0 41px 6px red;
-    transition: .4s
-}
+
 
 * {
     padding: 0;
