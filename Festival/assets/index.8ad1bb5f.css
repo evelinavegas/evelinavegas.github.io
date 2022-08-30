@@ -108,7 +108,7 @@
 }
 
 .anim-gallery {
-    transform: translate(1000%)
+    transform: translate(-1000%)
 }
 
 .anim-gallery._active {
@@ -243,6 +243,8 @@ a {
 header {
     background-image: url(/Festival/assets/header.91152b84.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh
 }
