@@ -91,42 +91,13 @@
 }
 
 .gallery a {
-    width: 25%;
-    cursor: pointer;
-    min-width: 300px;
-    height: 250px
+    cursor: pointer
 }
 
 .gallery img {
     width: 100%;
     height: 100%;
     transition: .5s
-}
-
-.gallery img:hover {
-    opacity: .5
-}
-
-.anim-gallery {
-    transform: translate(-1000%)
-}
-
-.anim-gallery._active {
-    transform: translate(0);
-    transition: 1s
-}
-
-.gallery-show {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh
-}
-
-.gallery-show-img {
-    width: 600px;
-    height: 500px
 }
 
 .next,
@@ -150,6 +121,29 @@
     left: 180px
 }
 
+@media (min-width: 50px) {
+    .gallery a {
+        width: 25%;
+        min-width: 300px;
+        height: 250px
+    }
+}
+
+@media (min-width: 760px) {
+    .anim-gallery {
+        transform: translate(-1000%)
+    }
+
+    .anim-gallery._active {
+        transform: translate(0);
+        transition: 1s
+    }
+
+    .gallery img:hover {
+        opacity: .5
+    }
+}
+
 .program {
     padding-top: 20px;
     display: flex;
@@ -161,18 +155,16 @@
 .program-dlock-time {
     font-weight: 700;
     font-size: larger;
-    padding: 0 20px;
-    width: calc(100% / 3)
+    padding: 0 20px
 }
 
 .program-block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25vh;
     padding: 30px 0;
-    width: 80%
+    width: 100%
 }
 
 .program-block-img {
@@ -184,12 +176,23 @@
 .program-block-title {
     display: flex;
     flex-direction: column;
-    width: calc(100% / 3);
     padding: 0 20px
 }
 
 .program-block-title * {
     padding: 5px 0
+}
+
+@media (min-width: 500px) {
+    .program-block {
+        flex-direction: row;
+        width: 80%
+    }
+
+    .program-dlock-time,
+    .program-block-title {
+        width: calc(100% / 3)
+    }
 }
 
 @media (min-width: 760px) {
@@ -203,17 +206,17 @@
     top: -100vh
 }
 
-.footer-block[data-v-cb0601ce] {
+.footer-block[data-v-47dba3b4] {
     padding: 50px;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center
 }
 
-.footer-block>img[data-v-cb0601ce] {
+.footer-block>img[data-v-47dba3b4] {
     width: 150px;
     height: 150px
 }
@@ -241,7 +244,7 @@ a {
 }
 
 header {
-    background-image: url(/Festival/assets/header.91152b84.jpg);
+    background-image: url(/assets/header.91152b84.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -327,7 +330,7 @@ main {
 }
 
 .main-title {
-    height: 50vh;
+    min-height: 50vh;
     text-align: center;
     display: flex;
     align-items: center
@@ -340,7 +343,7 @@ main {
 }
 
 .text-bold {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 700
 }
 
@@ -351,16 +354,6 @@ main {
     justify-content: center;
     margin: -15px;
     padding: 20px 0
-}
-
-.title-p-anim {
-    opacity: 0;
-    transform: translateY(100%)
-}
-
-.title-p-anim._active {
-    opacity: 1;
-    transform: translate(0)
 }
 
 .main-option-block>p {
@@ -400,10 +393,10 @@ main {
 }
 
 select {
-    width: 200px;
-    height: 60px;
+    width: 30%;
     border: 1px #1a1a1a solid;
     border-radius: 30px;
+    padding: 15px 0;
     margin: 20px 0;
     background-color: #1a1a1a;
     color: #fff;
@@ -423,9 +416,10 @@ option {
     color: #fff
 }
 
-.program-wrap-text {
-    padding: 30px;
-    font-size: 25px
+.main-paragraf {
+    text-align: center;
+    font-weight: 700;
+    padding: 30px
 }
 
 footer {
@@ -466,6 +460,16 @@ footer {
 @media (min-width: 560px) {
     .main-option-block>p {
         width: calc(50% - 30px)
+    }
+
+    .title-p-anim {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    .title-p-anim._active {
+        opacity: 1;
+        transform: translate(0)
     }
 }
 
