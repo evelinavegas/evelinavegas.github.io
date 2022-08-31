@@ -121,7 +121,7 @@
     left: 180px
 }
 
-@media (min-width: 50px) {
+@media (min-width: 500px) {
     .gallery a {
         width: 25%;
         min-width: 300px;
