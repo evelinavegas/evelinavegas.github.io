@@ -121,28 +121,6 @@
     left: 180px
 }
 
-@media (min-width: 500px) {
-    .gallery a {
-        width: 25%;
-        min-width: 300px;
-        height: 250px
-    }
-}
-
-@media (min-width: 760px) {
-    .anim-gallery {
-        transform: translate(-1000%)
-    }
-
-    .anim-gallery._active {
-        transform: translate(0);
-        transition: 1s
-    }
-
-    .gallery img:hover {
-        opacity: .5
-    }
-}
 
 .program {
     padding-top: 20px;
@@ -182,33 +160,14 @@
 .program-block-title * {
     padding: 5px 0
 }
-
-@media (min-width: 500px) {
-    .program-block {
-        flex-direction: row;
-        width: 80%
-    }
-
-    .program-dlock-time,
-    .program-block-title {
-        width: calc(100% / 3)
-    }
-    .btn {
-        background-color: #1a1a1a;
-        color: #fff;
-    }
-    .btn:hover {
-        opacity: 1;
-        background-color: #fff;
-        color: #1a1a1a;
-        box-shadow: 0 0 15px
-    }
-}
-
-@media (min-width: 760px) {
-    .program-block {
-        width: 50%
-    }
+.btn {
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #1a1a1a;
+    border: #111 2px solid;
+    border-radius: 30px
 }
 
 .programs-wrap[data-v-3e5765a1]:after {
@@ -298,15 +257,7 @@ h1 {
     text-transform: uppercase
 }
 
-.btn {
-    display: block;
-    padding: 20px 30px;
-    text-align: center;
-    background-color: #fff;
-    color: #1a1a1a;
-    border: #111 2px solid;
-    border-radius: 30px
-}
+
 
 .header-title-btn {
     animation-name: header-title-btn;
@@ -461,6 +412,35 @@ footer {
     transition: .4s
 }
 
+/* Media */
+
+
+@media (min-width: 500px) {
+    .gallery a {
+        width: 25%;
+        min-width: 300px;
+        height: 250px
+    }
+    .program-block {
+        flex-direction: row;
+        width: 80%
+    }
+
+    .program-dlock-time,
+    .program-block-title {
+        width: calc(100% / 3)
+    }
+    .btn {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+    .btn:hover {
+        opacity: 1;
+        background-color: #fff;
+        color: #1a1a1a;
+        box-shadow: 0 0 15px
+    }
+}
 @media (min-width: 560px) {
     .main-option-block>p {
         width: calc(50% - 30px)
@@ -477,6 +457,23 @@ footer {
     }
 }
 
+@media (min-width: 760px) {
+    .anim-gallery {
+        transform: translate(-1000%)
+    }
+
+    .anim-gallery._active {
+        transform: translate(0);
+        transition: 1s
+    }
+
+    .gallery img:hover {
+        opacity: .5
+    }
+    .program-block {
+        width: 50%
+    }
+}
 @media (min-width: 900px) {
     .main-option-block>p {
         width: calc(25% - 30px)
