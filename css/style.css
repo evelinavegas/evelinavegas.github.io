@@ -202,6 +202,7 @@ main>h2::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 20px;
 }
 .item-info>h2{
@@ -272,6 +273,7 @@ footer {
   
   .item-info{
     padding-top: 0;
+    align-items: flex-start;
   }
   
 }
