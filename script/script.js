@@ -23,6 +23,13 @@ const projectArr = [
         linkShow :'https://qests-build.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Qests-app',
     },
+    {
+        img: '../../img/item4.jpg',
+        title: 'Convertor',
+        description: 'Lorem, ipsum dolor sit amet',
+        linkShow :'https://convertor-build.vercel.app/',
+        linkCode :'https://github.com/evelinavegas/Convertor/tree/main',
+    },
     {        
         img: '../../img/item1.jpg',
         title: 'Tattoo salon',
