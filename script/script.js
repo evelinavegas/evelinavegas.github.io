@@ -16,6 +16,12 @@ menuBtn.addEventListener('click', (e)=>{
 })
 
 const projectArr = [
+    {
+        img: '../../img/item3.jpg',
+        title: 'Qests room',
+        description: 'Lorem, ipsum dolor sit amet',
+        link :'https://qests-build.vercel.app/',
+    },
     {        
         img: '../../img/item1.jpg',
         title: 'Tattoo salon',
@@ -26,14 +32,9 @@ const projectArr = [
         img: '../../img/item2.jpg',
         title: 'Festival',
         description: 'Lorem, ipsum dolor sit amet',
-        link :'./',
+        link :'https://fest-hczh8rlov-evelinavegas.vercel.app/',
     },
-    {
-        img: '../../img/item3.jpg',
-        title: 'Qests room',
-        description: 'Lorem, ipsum dolor sit amet',
-        link :'https://qests-build.vercel.app/',
-    }
+    
 ]
 
 const documentFragment = new DocumentFragment()
