@@ -20,7 +20,7 @@ const projectArr = [
         img: '../../img/item1.jpg',
         title: 'Tattoo salon',
         description: 'Lorem, ipsum dolor sit amet',
-        link :'./',
+        link :'https://tatto-salon.vercel.app/',
     },
     {
         img: '../../img/item2.jpg',
@@ -32,7 +32,7 @@ const projectArr = [
         img: '../../img/item3.jpg',
         title: 'Qests room',
         description: 'Lorem, ipsum dolor sit amet',
-        link :'./',
+        link :'https://qests-build.vercel.app/',
     }
 ]
 
