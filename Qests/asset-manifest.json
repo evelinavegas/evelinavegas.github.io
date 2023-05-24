@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48413943.css",
+    "main.js": "/static/js/main.4e1010e2.js",
+    "static/js/787.d0571c7d.chunk.js": "/static/js/787.d0571c7d.chunk.js",
+    "static/media/giphy.gif": "/static/media/giphy.d472794232b65b20d245.gif",
+    "static/media/notFound-bg.jpg": "/static/media/notFound-bg.8d87e565ef4b67687a7f.jpg",
+    "static/media/logo-group.svg": "/static/media/logo-group.d61570b877abda7eb82743a827f575b2.svg",
+    "static/media/adventures.svg": "/static/media/adventures.9c0e5812b30e56c8ffb93ee86d8dfcc4.svg",
+    "static/media/sci-fi.svg": "/static/media/sci-fi.b8950933532dae534729ec9f4242f9d0.svg",
+    "static/media/horror.svg": "/static/media/horror.54132844264530b28a80bbb1164d6fb1.svg",
+    "static/media/marker.svg": "/static/media/marker.785f0b894c94b5e159f39d0cb88f3316.svg",
+    "static/media/mysticism.svg": "/static/media/mysticism.1efaef3762f36b02183be615fbdd59fc.svg",
+    "static/media/all.svg": "/static/media/all.a7d979a9d45affbb5a577a5ebc486c8d.svg",
+    "static/media/puzzle.svg": "/static/media/puzzle.43c589aa5842bc35416eeea606fd6e9b.svg",
+    "static/media/detectives.svg": "/static/media/detectives.3be0159db0ce84b33333be46a1f84036.svg",
+    "static/media/person.svg": "/static/media/person.a30d5d5d58e23afa286496916e9cb6f4.svg",
+    "static/media/clock.svg": "/static/media/clock.2af17504cb1193b2870ddb3029e7031b.svg",
+    "static/media/error-404.svg": "/static/media/error-404.43fa945b637fc0d84eb201853a43b66e.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.424bcac5e3544b63d2685e2f0b9590e7.svg",
+    "main.48413943.css.map": "/static/css/main.48413943.css.map",
+    "main.4e1010e2.js.map": "/static/js/main.4e1010e2.js.map",
+    "787.d0571c7d.chunk.js.map": "/static/js/787.d0571c7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48413943.css",
+    "static/js/main.4e1010e2.js"
+  ]
+}
