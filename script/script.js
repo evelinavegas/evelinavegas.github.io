@@ -24,7 +24,7 @@ const projectArr = [
         linkCode :'https://github.com/evelinavegas/Qests-app',
     },
     {
-        img: '../../img/item4.jpg',
+        img: '../../img/item4.jpeg',
         title: 'Convertor',
         description: 'Lorem, ipsum dolor sit amet',
         linkShow :'https://convertor-build.vercel.app/',
