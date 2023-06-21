@@ -19,34 +19,47 @@ const projectArr = [
     {
         img: '../../img/item3.jpg',
         title: 'Qests room',
-        description: 'Lorem, ipsum dolor sit amet',
+        description: 'The project was created on React. Data was received from the server, filters were applied, a map with a marker and a form with validation were created.',
+        using: ['react-router-dom', 'leaflet', 'axios', 'formik', 'json-server'],
         linkShow :'https://qests-build.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Qests-app',
     },
     {
         img: '../../img/item4.jpeg',
         title: 'Convertor',
-        description: 'Lorem, ipsum dolor sit amet',
+        description: 'The project was created on React. The program converts currency, saves previous conversions with the current date',
+        using: ['react-router-dom', 'new Date'],
         linkShow :'https://convertor-build.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Convertor/tree/main',
     },
     {        
         img: '../../img/item1.jpg',
         title: 'Tattoo salon',
-        description: 'Lorem, ipsum dolor sit amet',
+        description: 'The project was created in JavaScript and jQuery. This is my first project :) although it is very simple',
+        using: ['jQuery'],
         linkShow :'https://tatto-salon.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Tatto_salon',
     },
     {
         img: '../../img/item2.jpg',
         title: 'Festival',
-        description: 'Lorem, ipsum dolor sit amet',
+        description: 'The project was created on Vue',
+        using: [],
         linkShow :'https://fest-hczh8rlov-evelinavegas.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Rock_fest',
     },
     
 ]
 
+function creatUsing(data){
+    const ul = document.createElement('ul')
+    data.forEach((e) => {
+        const li = document.createElement('li')
+        li.innerText = e
+        ul.appendChild(li)
+    })
+    return ul
+}
 const documentFragment = new DocumentFragment()
 
 function createItem(data) {
@@ -57,7 +70,7 @@ function createItem(data) {
     mainItemNode.querySelector('.item-description').innerText = data.description;
     mainItemNode.querySelector('.item-link-show').href = data.linkShow;
     mainItemNode.querySelector('.item-link-code').href = data.linkCode;
-
+    mainItemNode.querySelector('.item-using').append(creatUsing(data.using))
     documentFragment.append(mainItemNode);
 }
 function createItemsBlock(array) {
