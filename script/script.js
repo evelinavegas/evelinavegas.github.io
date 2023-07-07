@@ -20,7 +20,7 @@ const projectArr = [
         img: '../../img/item3.jpg',
         title: 'Qests room',
         description: 'The project was created on React. Data was received from the server, filters were applied, a map with a marker and a form with validation were created.',
-        using: ['react-router-dom', 'leaflet', 'axios', 'formik', 'json-server'],
+        using: ['react-router-dom', 'leaflet', 'axios', 'formik', 'json-server', 'mobx],
         linkShow :'https://qests-build.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Qests-app',
     },
