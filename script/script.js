@@ -48,6 +48,14 @@ const projectArr = [
         linkShow :'https://fest-hczh8rlov-evelinavegas.vercel.app/',
         linkCode :'https://github.com/evelinavegas/Rock_fest',
     },
+    {
+        img: '../../img/item4.jpeg',
+        title: 'Wörter App',
+        description: '',
+        using: [],
+        linkShow :'https://w-rter-app.vercel.app/',
+        linkCode :'https://github.com/evelinavegas/w-rter-app/tree/main',
+    },
     
 ]
 
@@ -81,3 +89,4 @@ function createItemsBlock(array) {
     progects.append(documentFragment)    
 }
 createItemsBlock(projectArr)
+
