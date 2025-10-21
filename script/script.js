@@ -49,7 +49,7 @@ const projectArr = [
         linkCode :'https://github.com/evelinavegas/Rock_fest',
     },
     {
-        img: '../../img/item5.jpeg',
+        img: '../../img/item5.jpg',
         title: 'Wörter App',
         description: '',
         using: [],
@@ -89,5 +89,6 @@ function createItemsBlock(array) {
     progects.append(documentFragment)    
 }
 createItemsBlock(projectArr)
+
 
 
